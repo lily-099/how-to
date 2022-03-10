@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:counterapp2/widgets/page_1/counter_value_text.g.dart';
+import 'package:counterapp3/widgets/page_1/counter_value_text.g.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:counterapp2/controller/tag/counter_button_custom.dart';
-import 'package:counterapp2/controller/tag/counter_value_holder_custom.dart';
+import 'package:counterapp3/controller/tag/counter_button_custom.dart';
+import 'package:counterapp3/controller/tag/counter_value_holder_custom.dart';
 
 class MyAppScreen extends StatefulWidget {
   const MyAppScreen({
@@ -22,17 +22,30 @@ class _MyAppScreen extends State<MyAppScreen> {
       child: Stack(children: [
         Positioned(
           left: 0,
-          width: 375.0,
+          right: 0,
           top: 0,
           height: 95.0,
           child: Stack(children: [
             Positioned(
               left: 0,
-              width: 375.0,
+              right: 0,
               top: 0,
               height: 95.0,
               child: Container(
-                width: 375.000,
+                width: MediaQuery.of(context).size.width * 1.000,
+                height: 95.000,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(0)),
+                ),
+              ),
+            ),
+            Positioned(
+              left: 0,
+              right: 0,
+              top: 0,
+              height: 95.0,
+              child: Container(
+                width: MediaQuery.of(context).size.width * 1.000,
                 height: 95.000,
                 decoration: BoxDecoration(
                   color: Color(0xff3598fb),
@@ -42,11 +55,11 @@ class _MyAppScreen extends State<MyAppScreen> {
             ),
             Positioned(
               left: 64.0,
-              width: 254.0,
+              right: 57.0,
               top: 48.0,
               height: 28.0,
               child: Container(
-                  width: 254.000,
+                  width: MediaQuery.of(context).size.width * 0.677,
                   height: 28.000,
                   child: AutoSizeText(
                     'Flutter Demo Home Page',
@@ -90,7 +103,7 @@ class _MyAppScreen extends State<MyAppScreen> {
               height: 70.0,
               child: Image.asset(
                 'assets/images/1_134.png',
-                package: 'counterapp2',
+                package: 'counterapp3',
                 width: 70.000,
                 height: 70.000,
                 fit: BoxFit.none,
