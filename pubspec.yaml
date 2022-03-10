@@ -1,4 +1,4 @@
-name: counterapp2
+name: counterapp3
 description: A new Flutter project.
 publish_to: none
 version: 1.0.0+1
@@ -17,7 +17,7 @@ dev_dependencies:
 flutter: 
   uses-material-design: true
   assets: 
-    - packages/counterapp2/assets/images/1_134.png
-    - packages/counterapp2/assets/images/1_134.png
-    - packages/counterapp2/assets/images/1_134.png
-    - packages/counterapp2/assets/images/1_134.png
+    - packages/counterapp3/assets/images/1_134.png
+    - packages/counterapp3/assets/images/1_134.png
+    - packages/counterapp3/assets/images/1_134.png
+    - packages/counterapp3/assets/images/1_134.png

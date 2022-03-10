@@ -1,6 +1,6 @@
     import 'package:widgetbook/widgetbook.dart';
     import 'package:flutter/material.dart';
-    import 'package:counterapp2/widgets/page_1/counter_value_text.g.dart';
+    import 'package:counterapp3/widgets/page_1/counter_value_text.g.dart';
 
 
     void main() {
