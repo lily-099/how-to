@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(counterapp2 LANGUAGES CXX)
+project(helloworld LANGUAGES CXX)
 
-set(BINARY_NAME "counterapp2")
+set(BINARY_NAME "helloworld")
 
 cmake_policy(SET CMP0063 NEW)
 
